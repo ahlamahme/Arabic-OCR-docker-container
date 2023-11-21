@@ -12,9 +12,7 @@ here <br>
 2-tesseract: command <br>
 3-images.png:is the name of image <br>
 /images/output_text.txt: output file you will find it where you mount the volume which is /home/ahlam/Downloads<br>
-***
 ___
---- 
 
 ![Octocat](arabic-ocr.png "output") 
 
