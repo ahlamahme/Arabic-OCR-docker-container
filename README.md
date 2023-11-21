@@ -7,8 +7,10 @@ docker pull tesseractshadow/tesseract4re
 ```bash
 sudo docker run -v /home/ahlam/Downloads:/images -it tesseractshadow/tesseract4re tesseract /images/images.png /images/output_text.txt -l ara
 ```
-here /home/ahlam/Downloads the path of image on my local machin mounted it using volum to /images  inside the container.<br>
-tesseract: command <br>
-images.png:is the name of image <br>
+here <br>
+1-/home/ahlam/Downloads the path of image on my local machin mounted it using volum to /images  inside the container.<br>
+2-tesseract: command <br>
+3-images.png:is the name of image <br>
 /images/output_text.txt: output file you will find it where you mount the volume which is /home/ahlam/Downloads
+![Octocat](arabic-ocr.png "output") 
 
